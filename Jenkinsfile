@@ -24,7 +24,7 @@ pipeline {
                    sh 'docker login -u bdineshchary -p ${dockerhubpwd}'
 
 }
-                   sh 'sudo docker push bdineshchary/devopsdevopsproj:latest'
+                   sh 'docker push bdineshchary/devopsdevopsproj'
                 }
             }
         }
